@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>DKane99 · 从训练环境到部署环境，最容易忽略什么</title><meta name="description" content="部署不是把模型文件复制到设备上就结束了。很多真正耗时间的问题，都发生在模型之外。"/><meta name="theme-color" content="#050814"/>
+<meta property="og:title" content="DKane99 · 从训练环境到部署环境，最容易忽略什么"/><meta property="og:description" content="部署不是把模型文件复制到设备上就结束了。很多真正耗时间的问题，都发生在模型之外。"/>
+<meta property="og:image" content="https://dkane99.github.io/assets/og-cover.svg"/><meta property="og:type" content="website"/>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/><link rel="manifest" href="manifest.webmanifest"/><link rel="stylesheet" href="assets/style.css"/>
+</head><body>
+<div class="scroll-progress" id="scrollProgress"></div><div class="grid-bg"></div><div class="noise"></div><div class="mouse-glow"></div><div class="orb a"></div><div class="orb b"></div>
+<div class="nav-wrap"><div class="container"><nav>
+<a class="brand" href="index.html"><div class="mark"><img src="assets/logo.svg" alt="DKane99 logo"/></div><div><small>Anonymous Tech Brand</small><strong>DKane99 / Dylan Kane</strong></div></a>
+<div class="nav-links"><a class="" href="index.html">品牌首页</a><a class="" href="projects.html">项目</a><a class="active" href="notes.html">Lab Notes</a><a class="" href="snippets.html">代码片段</a><a class="" href="brand.html">Brand</a></div><div class="nav-actions"><button class="icon-btn" id="commandBtn">⌘</button><button class="icon-btn" id="themeBtn">☾</button></div>
+</nav></div></div>
+<main><section class="container" style="padding-top:54px"><div class="breadcrumbs"><a href="index.html">Home</a><span>/</span><a href="notes.html">Lab Notes</a><span>/</span><span>从训练环境到部署环境，最容易忽略什么</span></div><article class="article reveal"><div class="section-kicker">Lab Note</div><h1>从训练环境到部署环境，最容易忽略什么</h1><div class="article-meta"><span>Edge AI</span><span>Deployment</span><span>Debug</span></div><p class="lead">部署不是把模型文件复制到设备上就结束了。很多真正耗时间的问题，都发生在模型之外。</p><h2>01 · 数据格式</h2><p>颜色空间、尺寸、归一化方式、内存布局、输入 tensor 形状等任何一个地方不一致，都可能让推理结果看起来“像模型坏了”。</p><h2>02 · 前后处理</h2><ul><li>预处理是否和训练时一致？</li><li>NMS 与阈值是否正确？</li><li>坐标缩放是否考虑 letterbox？</li><li>输出类别顺序是否一致？</li></ul><h2>03 · 资源与可观测性</h2><p>设备端不仅要跑得快，也要能看见 FPS、延迟、内存、输入输出和错误日志。否则调试会非常痛苦。</p><blockquote>记录不是为了证明自己做过什么，而是为了让未来的自己更快重新进入这个问题。</blockquote><div class="cta" style="margin-top:32px"><a class="btn primary" href="notes.html">返回 Lab Notes</a><a class="btn" href="snippets.html">看代码片段</a></div></article></section></main>
+<footer><div class="container footer-row"><span>© 2026 DKane99 · Dylan Kane</span><span>Anonymous Tech Brand · AI / Vision / Embedded / Robotics</span></div></footer>
+<div class="command" id="command"><div class="command-box"><div class="command-input"><span>⌘</span><input id="commandSearch" placeholder="输入目标：projects / notes / snippets / brand / github" autocomplete="off"/></div><div class="command-list">
+<div class="command-item" data-go="index.html"><span>品牌首页</span><kbd>home</kbd></div>
+<div class="command-item" data-go="projects.html"><span>项目详情</span><kbd>projects</kbd></div>
+<div class="command-item" data-go="notes.html"><span>Lab Notes</span><kbd>notes</kbd></div>
+<div class="command-item" data-go="snippets.html"><span>代码片段</span><kbd>snippets</kbd></div>
+<div class="command-item" data-go="brand.html"><span>品牌系统</span><kbd>brand</kbd></div>
+<div class="command-item" data-go="https://github.com/DKane99"><span>打开 GitHub</span><kbd>github</kbd></div>
+</div></div></div><script src="assets/script.js"></script></body></html>

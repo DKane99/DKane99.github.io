@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>DKane99 · Smart Processing Vision Engine</title><meta name="description" content="一个强调边缘部署和场景适配的视觉处理引擎。目标是把视觉模型真正放进实际流程，而不是只停留在训练环境。"/><meta name="theme-color" content="#050814"/>
+<meta property="og:title" content="DKane99 · Smart Processing Vision Engine"/><meta property="og:description" content="一个强调边缘部署和场景适配的视觉处理引擎。目标是把视觉模型真正放进实际流程，而不是只停留在训练环境。"/>
+<meta property="og:image" content="https://dkane99.github.io/assets/og-cover.svg"/><meta property="og:type" content="website"/>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/><link rel="manifest" href="manifest.webmanifest"/><link rel="stylesheet" href="assets/style.css"/>
+</head><body>
+<div class="scroll-progress" id="scrollProgress"></div><div class="grid-bg"></div><div class="noise"></div><div class="mouse-glow"></div><div class="orb a"></div><div class="orb b"></div>
+<div class="nav-wrap"><div class="container"><nav>
+<a class="brand" href="index.html"><div class="mark"><img src="assets/logo.svg" alt="DKane99 logo"/></div><div><small>Anonymous Tech Brand</small><strong>DKane99 / Dylan Kane</strong></div></a>
+<div class="nav-links"><a class="" href="index.html">品牌首页</a><a class="active" href="projects.html">项目</a><a class="" href="notes.html">Lab Notes</a><a class="" href="snippets.html">代码片段</a><a class="" href="brand.html">Brand</a></div><div class="nav-actions"><button class="icon-btn" id="commandBtn">⌘</button><button class="icon-btn" id="themeBtn">☾</button></div>
+</nav></div></div>
+<main><section class="container" style="padding-top:54px"><div class="breadcrumbs"><a href="index.html">Home</a><span>/</span><a href="projects.html">Projects</a><span>/</span><span>Smart Processing Vision Engine</span></div>
+<article class="article reveal"><div class="section-kicker">SYSTEM 02 · EDGE AI</div><h1>Smart Processing Vision Engine</h1><div class="article-meta"><span>Edge AI</span><span>Vision</span><span>Pipeline</span><span>Deployment</span></div><p class="lead">一个强调边缘部署和场景适配的视觉处理引擎。目标是把视觉模型真正放进实际流程，而不是只停留在训练环境。</p><div class="callout"><h3>System Snapshot</h3><p>Iterating · 更适合作为长期实验平台，持续记录边缘部署中的真实问题。</p></div>
+<h2>01 · 问题定义</h2><p>模型在训练环境里表现良好，不代表部署环境就稳定。输入格式、设备资源、推理速度、接口协议和后处理逻辑，都可能成为实际系统的瓶颈。</p><h2>02 · 系统架构</h2><div class="arch-list"><div class="arch-item"><strong>01 · Input</strong><span>统一图像采集、格式转换与预处理。</span></div><div class="arch-item"><strong>02 · Inference</strong><span>在目标设备上执行模型推理并控制资源开销。</span></div><div class="arch-item"><strong>03 · Postprocess</strong><span>将模型输出转成业务可使用的结果。</span></div><div class="arch-item"><strong>04 · Feedback</strong><span>把结果送入流程控制或可视化模块，形成可验证闭环。</span></div></div><h2>03 · 工程挑战</h2><ul><li>设备算力和内存限制会影响模型选择。</li><li>输入输出格式差异可能导致“模型没问题但结果异常”。</li><li>真实场景光照、视角和目标外观会持续变化。</li></ul><h2>04 · 验证逻辑</h2><p>验证应覆盖速度、稳定性、资源占用、场景鲁棒性和业务流程中的实际可用率，而不是只看离线精度。</p>
+<div class="grid4" style="margin-top:26px"><div class="kpi"><small>DESIGN</small><strong>Modular</strong><div class="bar"><span style="width:88%"></span></div></div><div class="kpi"><small>DEBUG</small><strong>Observable</strong><div class="bar"><span style="width:84%"></span></div></div><div class="kpi"><small>DEPLOY</small><strong>Practical</strong><div class="bar"><span style="width:80%"></span></div></div><div class="kpi"><small>PRIVACY</small><strong>Safe</strong><div class="bar"><span style="width:100%"></span></div></div></div>
+<h2>05 · 项目状态</h2><blockquote>Iterating · 更适合作为长期实验平台，持续记录边缘部署中的真实问题。</blockquote><div class="cta" style="margin-top:34px"><a class="btn primary" href="projects.html">返回项目列表</a><a class="btn" href="notes.html">查看相关 Lab Notes</a></div></article></section></main>
+<footer><div class="container footer-row"><span>© 2026 DKane99 · Dylan Kane</span><span>Anonymous Tech Brand · AI / Vision / Embedded / Robotics</span></div></footer>
+<div class="command" id="command"><div class="command-box"><div class="command-input"><span>⌘</span><input id="commandSearch" placeholder="输入目标：projects / notes / snippets / brand / github" autocomplete="off"/></div><div class="command-list">
+<div class="command-item" data-go="index.html"><span>品牌首页</span><kbd>home</kbd></div>
+<div class="command-item" data-go="projects.html"><span>项目详情</span><kbd>projects</kbd></div>
+<div class="command-item" data-go="notes.html"><span>Lab Notes</span><kbd>notes</kbd></div>
+<div class="command-item" data-go="snippets.html"><span>代码片段</span><kbd>snippets</kbd></div>
+<div class="command-item" data-go="brand.html"><span>品牌系统</span><kbd>brand</kbd></div>
+<div class="command-item" data-go="https://github.com/DKane99"><span>打开 GitHub</span><kbd>github</kbd></div>
+</div></div></div><script src="assets/script.js"></script></body></html>

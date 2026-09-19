@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" fill="none">
+<defs>
+  <linearGradient id="s" x1="45" y1="34" x2="314" y2="324" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#78A9FF"/><stop offset=".5" stop-color="#58E7D7"/><stop offset="1" stop-color="#AE8DFF"/>
+  </linearGradient>
+  <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 180) rotate(90) scale(138)">
+    <stop stop-color="#78A9FF" stop-opacity=".16"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="360" height="360" rx="54" fill="#050814"/>
+<circle cx="180" cy="180" r="128" fill="url(#r)"/>
+<circle cx="180" cy="180" r="118" stroke="url(#s)" stroke-opacity=".16" stroke-width="2"/>
+<circle cx="180" cy="180" r="91" stroke="url(#s)" stroke-opacity=".28" stroke-width="2" stroke-dasharray="10 10"/>
+<circle cx="180" cy="180" r="64" stroke="url(#s)" stroke-opacity=".18"/>
+<path d="M73 89h64c70 0 111 28 111 77s-41 77-111 77H73V89Zm62 34v86h7c39 0 63-13 63-43s-24-43-63-43h-7Z" fill="url(#s)"/>
+<path d="M241 89h26l-40 47 43 48h-26l-30-34-32 34h-26l45-50-39-45h26l25 29 28-29Z" fill="url(#s)"/>
+<path d="M180 29v43M180 288v43M29 180h43M288 180h43" stroke="url(#s)" stroke-opacity=".28" stroke-width="2"/>
+<path d="m77 77 28 28M255 255l28 28M283 77l-28 28M105 255l-28 28" stroke="url(#s)" stroke-opacity=".12"/>
+</svg>
