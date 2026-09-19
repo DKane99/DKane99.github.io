@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+<defs>
+<linearGradient id="g" x1="60" y1="60" x2="1120" y2="560"><stop stop-color="#78A9FF"/><stop offset=".48" stop-color="#58E7D7"/><stop offset="1" stop-color="#AE8DFF"/></linearGradient>
+<radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(880 260) rotate(90) scale(240)"><stop stop-color="#78A9FF" stop-opacity=".2"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="630" fill="#050814"/>
+<rect x="38" y="38" width="1124" height="554" rx="36" stroke="url(#g)" stroke-opacity=".22"/>
+<circle cx="900" cy="288" r="210" fill="url(#r)"/><circle cx="900" cy="288" r="160" stroke="url(#g)" stroke-opacity=".2"/>
+<text x="84" y="240" fill="url(#g)" font-family="Inter,Arial,sans-serif" font-size="94" font-weight="800" letter-spacing="-4">DKane99</text>
+<text x="88" y="306" fill="#EEF5FF" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700">Dylan Kane · Anonymous Tech Brand</text>
+<text x="88" y="374" fill="#91A4C2" font-family="ui-monospace,Consolas,monospace" font-size="23">AI / Vision / Embedded / Robotics / Agents</text>
+<text x="88" y="505" fill="#58E7D7" font-family="ui-monospace,Consolas,monospace" font-size="20">BUILD · DEBUG · ITERATE · SHIP</text>
+<text x="830" y="330" fill="url(#g)" font-family="Inter,Arial,sans-serif" font-size="110" font-weight="900">DK</text>
+</svg>
