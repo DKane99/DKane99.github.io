@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>DKane99 · Chaos Stack Vision Sorter</title><meta name="description" content="一个面向复杂堆叠场景的视觉识别与分拣系统。重点不是单独检测出目标，而是把视觉结果转成可执行的定位与抓取信息。"/><meta name="theme-color" content="#050814"/>
+<meta property="og:title" content="DKane99 · Chaos Stack Vision Sorter"/><meta property="og:description" content="一个面向复杂堆叠场景的视觉识别与分拣系统。重点不是单独检测出目标，而是把视觉结果转成可执行的定位与抓取信息。"/>
+<meta property="og:image" content="https://dkane99.github.io/assets/og-cover.svg"/><meta property="og:type" content="website"/>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/><link rel="manifest" href="manifest.webmanifest"/><link rel="stylesheet" href="assets/style.css"/>
+</head><body>
+<div class="scroll-progress" id="scrollProgress"></div><div class="grid-bg"></div><div class="noise"></div><div class="mouse-glow"></div><div class="orb a"></div><div class="orb b"></div>
+<div class="nav-wrap"><div class="container"><nav>
+<a class="brand" href="index.html"><div class="mark"><img src="assets/logo.svg" alt="DKane99 logo"/></div><div><small>Anonymous Tech Brand</small><strong>DKane99 / Dylan Kane</strong></div></a>
+<div class="nav-links"><a class="" href="index.html">品牌首页</a><a class="active" href="projects.html">项目</a><a class="" href="notes.html">Lab Notes</a><a class="" href="snippets.html">代码片段</a><a class="" href="brand.html">Brand</a></div><div class="nav-actions"><button class="icon-btn" id="commandBtn">⌘</button><button class="icon-btn" id="themeBtn">☾</button></div>
+</nav></div></div>
+<main><section class="container" style="padding-top:54px"><div class="breadcrumbs"><a href="index.html">Home</a><span>/</span><a href="projects.html">Projects</a><span>/</span><span>Chaos Stack Vision Sorter</span></div>
+<article class="article reveal"><div class="section-kicker">SYSTEM 01 · VISION + ROBOTICS</div><h1>Chaos Stack Vision Sorter</h1><div class="article-meta"><span>3D Vision</span><span>Detection</span><span>Robot</span><span>Sorting</span></div><p class="lead">一个面向复杂堆叠场景的视觉识别与分拣系统。重点不是单独检测出目标，而是把视觉结果转成可执行的定位与抓取信息。</p><div class="callout"><h3>System Snapshot</h3><p>Prototype Ready · 结构已具备，可继续补充真实架构图、实验截图和量化结果。</p></div>
+<h2>01 · 问题定义</h2><p>当目标存在遮挡、重叠、姿态变化时，单纯二维检测往往不足以支撑稳定抓取。系统需要从视觉输入中提取可靠目标信息，并把结果传递给后续执行模块。</p><h2>02 · 系统架构</h2><div class="arch-list"><div class="arch-item"><strong>01 · Perception</strong><span>目标检测、区域筛选与空间信息获取。</span></div><div class="arch-item"><strong>02 · Localization</strong><span>把视觉坐标转成系统可使用的定位信息。</span></div><div class="arch-item"><strong>03 · Decision</strong><span>对候选目标进行排序、筛选与抓取决策。</span></div><div class="arch-item"><strong>04 · Execution</strong><span>将目标信息发送到执行端，并接收动作反馈形成闭环。</span></div></div><h2>03 · 工程挑战</h2><ul><li>遮挡与堆叠会导致目标边界不完整。</li><li>视觉坐标和执行坐标需要可靠映射。</li><li>系统不仅要“看见”，还要能解释失败原因并快速调试。</li></ul><h2>04 · 验证逻辑</h2><p>验证不只看检测指标，还应观察抓取成功率、定位误差、系统延迟、失败原因分布以及连续运行稳定性。</p>
+<div class="grid4" style="margin-top:26px"><div class="kpi"><small>DESIGN</small><strong>Modular</strong><div class="bar"><span style="width:88%"></span></div></div><div class="kpi"><small>DEBUG</small><strong>Observable</strong><div class="bar"><span style="width:84%"></span></div></div><div class="kpi"><small>DEPLOY</small><strong>Practical</strong><div class="bar"><span style="width:80%"></span></div></div><div class="kpi"><small>PRIVACY</small><strong>Safe</strong><div class="bar"><span style="width:100%"></span></div></div></div>
+<h2>05 · 项目状态</h2><blockquote>Prototype Ready · 结构已具备，可继续补充真实架构图、实验截图和量化结果。</blockquote><div class="cta" style="margin-top:34px"><a class="btn primary" href="projects.html">返回项目列表</a><a class="btn" href="notes.html">查看相关 Lab Notes</a></div></article></section></main>
+<footer><div class="container footer-row"><span>© 2026 DKane99 · Dylan Kane</span><span>Anonymous Tech Brand · AI / Vision / Embedded / Robotics</span></div></footer>
+<div class="command" id="command"><div class="command-box"><div class="command-input"><span>⌘</span><input id="commandSearch" placeholder="输入目标：projects / notes / snippets / brand / github" autocomplete="off"/></div><div class="command-list">
+<div class="command-item" data-go="index.html"><span>品牌首页</span><kbd>home</kbd></div>
+<div class="command-item" data-go="projects.html"><span>项目详情</span><kbd>projects</kbd></div>
+<div class="command-item" data-go="notes.html"><span>Lab Notes</span><kbd>notes</kbd></div>
+<div class="command-item" data-go="snippets.html"><span>代码片段</span><kbd>snippets</kbd></div>
+<div class="command-item" data-go="brand.html"><span>品牌系统</span><kbd>brand</kbd></div>
+<div class="command-item" data-go="https://github.com/DKane99"><span>打开 GitHub</span><kbd>github</kbd></div>
+</div></div></div><script src="assets/script.js"></script></body></html>
