@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://dkane99.github.io/sitemap.xml

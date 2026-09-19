@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" fill="none">
-<defs><linearGradient id="w" x1="0" y1="0" x2="900" y2="180"><stop stop-color="#78A9FF"/><stop offset=".5" stop-color="#58E7D7"/><stop offset="1" stop-color="#AE8DFF"/></linearGradient></defs>
-<rect width="900" height="180" rx="28" fill="#050814"/>
-<text x="44" y="104" fill="url(#w)" font-family="Inter,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-3">DKane99</text>
-<text x="48" y="143" fill="#8FA5C7" font-family="ui-monospace,Consolas,monospace" font-size="20" letter-spacing="4">DYLAN KANE · ANONYMOUS TECH PERSONA</text>
-</svg>
